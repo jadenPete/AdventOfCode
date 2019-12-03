@@ -13,7 +13,7 @@ with open("day3.txt", "r") as file:
 				loc[delta[0]] += delta[1]
 				steps += 1
 
-				yield (tuple(loc), steps)
+				yield tuple(loc), steps
 
 	visited = {}
 
